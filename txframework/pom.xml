@@ -352,7 +352,7 @@
             <properties>
                 <server.jvm.args>
                     ${jvm.args.other} ${jvm.args.byteman} ${jvm.args.memory} ${jvm.args.debug}
-                    ${jvm.args.jacoco}
+                    ${jvm.args.jacoco} ${jvm.args.modular}
                 </server.jvm.args>
             </properties>
         </profile>
